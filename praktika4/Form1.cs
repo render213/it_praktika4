@@ -51,6 +51,7 @@ namespace praktika4
           double proiz = 1;
           for(i=1;i<n;i++)
           {
+
             double number = i;
             proiz =proiz* (Factorial(number)*0.5)/(0.1*number+1);
           }
